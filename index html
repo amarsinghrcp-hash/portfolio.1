@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive Web Development Capstone Project by Amar Singh.">
+    <title>Portfolio Dashboard - Full-Stack Deployment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="logo">Amar Singh - Capstone Portfolio</div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="todo.html">To-Do App</a></li>
+                <li><a href="weather.html">Weather Dashboard</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1>Web Development Capstone Project</h1>
+            <p>A comprehensive, modular web application combining semantic design, advanced CSS, state management, and external API integration.</p>
+            <a href="projects.html" class="btn" role="button">Explore Projects</a>
+        </section>
+
+        <section class="grid-container" style="margin-top: 2rem;">
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>Interactive task manager featuring full CRUD functionality and local storage persistence.</p>
+                <a href="todo.html" class="btn" style="display:inline-block; margin-top:1rem; text-decoration:none;">Open App</a>
+            </div>
+            <div class="project-card">
+                <h3>Weather Dashboard</h3>
+                <p>Real-time weather tracking application powered by asynchronous JavaScript and RESTful APIs.</p>
+                <a href="weather.html" class="btn" style="display:inline-block; margin-top:1rem; text-decoration:none;">Open App</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Amar Singh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
